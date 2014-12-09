@@ -1,0 +1,47 @@
+/* 
+Layout Rules
+    CSS, by its very nature, is used to lay elements out on the page. However, there is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer. I refer to the minor components as Modules and will dive into those in the next section. The major components are referred to as Layout styles.
+    Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.
+*/
+
+.sidebar {
+    background-color: #ffff78;
+    position: fixed;
+    //bottom: 0;
+    //left;
+   // right: 0;
+    //top: 0;
+    width: 15%;
+    @media screen and (max-width: $tablet) {
+        position: static;
+        width: 100%;
+    }
+}
+
+.preamble h3, .requirements h3, .benefits h3, .explanation h3, .participation h3, .requirements h3, .page-wrapper h1 {
+    font-family: 'Vollkorn';
+    font-size: 30px;
+    color: #F8981C;
+}
+
+.page-wrapper h1 {
+    font-family: 'Vollkorn';
+    font-size: 60px;
+    color: #F8981c;
+    text-align: left;
+}
+
+.page-wrapper h2 {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-size: 40px;
+    color: #2E3092;
+    text-align: left;
+}
+
+.page-wrapper {
+    font-family: 'Signika';
+    font-size: 18px;
+    color: #2E3092;
+    background-color: #ffff68;
+}

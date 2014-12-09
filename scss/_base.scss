@@ -1,0 +1,38 @@
+/* 
+Base Rules
+	A Base rule is applied to an element using an element selector, a descendent selector, or a child selector, along with any pseudoclasses. It doesn’t include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.
+*/
+html {
+    background-image: url("file:///Users/Samii/Downloads/art336-css-zen-garden-Samiii%20Final%20Edit/space.jpg");
+    background-attachment: scroll;
+    background-position: fixed;
+}
+
+a:link {
+    color: #F8981c;
+;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffff68;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.page-wrapper {
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #F8981c;
+}
+.page-wrapper h2 {
+    image: url("file///users/samii/downloads/art336-css-zen-garden-Samii%20Final%20Edit/rocket.gif");
+}
